@@ -75,16 +75,79 @@
 							<h2>Comparative study of Object Detection</h2>
 						</header> -->
 						<h3><b style="font-size: 25px">Key Projects</b></h3>
-						<p><b style="font-size: 18px;">Data Warehouse System </b><br> The problem of this project is that we have to design a scalable data warehouse system that contains various categories and classified image in that categories with no duplication and various different operation. Trained the model on more than 100k images for our data warehouse system and perform different operation on these images. Integrate the whole system in the pipeline and create a GUI and API for the user interface. The accuracy of the system is 94.98 %.
+						<p><b style="font-size: 18px;">Monitor the Person Appearance </b><br> Problem Statement: Monitor the person’s attendance. Associate the faces with the existing employee database to identify each employee record the time stamp and date for each employee recognized.
+						</br>
+						 Data-set : 100 hrs. Video footage for analysis and to build out model for monitor of person appearance.
+						 </br>
+						 Output: The output of the analysis will be recorded in an csv file, which will record the person’s id and the his/her time stamp and date
+						 </br>
+						 <b style="font-size: 12px; color:#0000FF">Research paper used in AI-Model.</b>
+						 </br>
+						 <b>1. Object Detection | <a style="color: #0000FF">Source:</a> <a href="https://arxiv.org/pdf/1512.02325.pdf"; target="_blank"> SSD: Single Shot MultiBox Detector</a></b><br>
+						<b>2. Face-Recognition | <a style="color: #0000FF">Source:</a> <a href="https://arxiv.org/abs/1503.03832"; target="_blank">FaceNet: A Unified Embedding for Face Recognition and Clustering</a></b><br>
+						<b>3. Face-Tracking | <a style="color: #0000FF">Source:</a> <a href="https://pdfs.semanticscholar.org/8461/7541ad311942be796095cb54e970c578307c.pdf"; target="_blank">An Algorithm For Centroid-Based Tracking of Moving Objects </a></b><br>
+						
+						</p>
+						
+						<hr />
+						
+						<p><b style="font-size: 18px;">DNA-Splice Gene Prediction</b><br> Each DNA read is a sequence of four [C,A,G,T] types of nucleotides and needs to be converted into numerical representations for machine learning.
+						The domain consists of 60 variables, representing a sequence of DNA bases an additional class Variable. The task is to determine if the middle of the sequence is a splice junction and what is its type: Splice junctions are of two types:
+						</br>
+						1. exon-intron (EI): represents the end of an exon and the beginning of an intron
+						</br>
+						2. intron-exon (IE): represents where the intron ends and the next exon, or coding section, begins.
+						</br>
+						So the class variable contains 3 values:
+						</br>
+						1. exon-intron (EI)	| 2. intron-exon (IE) | 3. No-Junction
+						</br>
+						Other 4 values corresponding to the 4 possible DNA bases (C, A, G, T)
+						</br>
+						C : Cytosine | A : Adenine | G : Guanine | T : Thymine
+						</br>
+						 <b style="font-size: 12px; color:#0000FF">Research paper used in AI-Model.</b>
+						 </br>
+						 <b>1. DNA-Splice-Jucntion | <a style="color: #0000FF">Source:</a> <a href="https://arxiv.org/pdf/1512.05135.pdf"; target="_blank"> DNA-Level Splice Junction Prediction using Deep Recurrent Neural Networks</a></b><br>
+						<b>2. Classification of DNA-Splice | <a style="color: #0000FF">Source:</a> <a href="https://core.ac.uk/download/pdf/82482313.pdf"; target="_blank">Classification of eukaryotic splice-junction genetic sequences using averaged one-dependence estimators with subsumption resolution</a></b><br>
+
+						</p>
+						
+						<hr />
+						<p><b style="font-size: 18px;">Quality Enhancement of Images Using GAN </b><br> 
+						Problem of this project is that we have to build a model which makes it possible to generate HR-Images based on their LR-Images
+						</br>
+						A deep-learning-based solution for the construction of a super resolution images. Trained the model on 200k LR-Images and the condition to be enhanced of LR-Images.
+						</br>
+						 <b style="font-size: 12px; color:#0000FF">Research paper used in AI-Model.</b>
+						 </br>
+						 <b>1. SR-GAN | <a style="color: #0000FF">Source:</a> <a href="https://arxiv.org/abs/1609.04802"; target="_blank"> Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network</a></b><br>
+						<b>2. Condition SR-GAN | <a style="color: #0000FF">Source:</a> <a href="http://cs231n.stanford.edu/reports/2017/pdfs/314.pdf"; target="_blank">Class-Conditional Superresolution with GANs</a></b><br>
+
+
+						</p>
+						
+						<hr />
+						<p><b style="font-size: 18px;">Data Warehouse System </b><br> The problem of this project is that we have to design a scalable data warehouse system that contains various categories and classified image in that categories with no duplication and various different operation. Trained the model on more than 100k images for our data warehouse system and perform different operation on these images. Integrate the whole system in the pipeline and create a GUI and API for the user interface. The accuracy of the system is 99.38 %.
+
+						</br>
+						 <b style="font-size: 12px; color:#0000FF">Research paper used in AI-Model.</b>
+						 </br>
+						 <b>1. VGG-16 Architecture | <a style="color: #0000FF">Source:</a> <a href="https://arxiv.org/abs/1409.1556"; target="_blank"> Very Deep Convolutional Networks for Large-Scale Image Recognition</a></b><br>
+						<b>2.Hashing Techniques | <a style="color: #0000FF">Source:</a> <a href="https://core.ac.uk/download/pdf/35471499.pdf"; target="_blank">Selecting a Hashing Algorithm</a></b><br>
+
+						<b>2. Simialrity Algorithm | <a style="color: #0000FF">Source:</a> <a href="http://ai.stanford.edu/~gal/Papers/chechik_nips2009.pdf"; target="_blank">An Online Algorithm for Large Scale Image Similarity Learning</a></b><br>
+	
 						</p>
 						
 						<hr />
 						<p><b style="font-size: 18px;">Recommender System</b><br> The problem of this project is that we have to design a recommender system for male & female based on their dressing style and face shape etc. For this project, we have used the detection and classification model. Trained the model on the huge number of label images for our detection and classification model and perform different operation on these detected images. Integrate the whole system in the pipeline and create a GUI and API for the user interface.<br>
-						# Model -- Algorithm used in this system:<br>
-						1: Object Detection<br>
-						2: Classification<br>
-						3: Clustering <br>
-						4: Recommender System (using Bi-Directional LSTM)<br>
+						 <b style="font-size: 12px; color:#0000FF">Research paper used in AI-Model.</b>
+						 </br>
+						 <b>1. Object Detection | <a style="color: #0000FF">Source:</a> <a href="https://arxiv.org/abs/1506.02640"; target="_blank"> You Only Look Once: Unified, Real-Time Object Detection</a></b><br>
+						<b>2. Classification | <a style="color: #0000FF">Source:</a> <a href="https://arxiv.org/abs/1512.00567"; target="_blank">Rethinking the Inception Architecture for Computer Vision</a></b><br>
+						<b>3. Clustering | <a style="color: #0000FF">Source:</a> <a href="https://arxiv.org/pdf/1002.2425.pdf"; target="_blank">Application of k-Means Clustering algorithm for prediction of Students’ Academic Performance</a></b><br>
+						<b>4. Recommender System (using Bi-Directional LSTM) | <a style="color: #0000FF">Source:</a> <a href="https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43905.pdf"; target="_blank">Long Short-Term Memory Recurrent Neural Network Architectures for Large Scale Acoustic Modeling</a></b><br>
 						</p>
 						
 
